@@ -1,0 +1,5 @@
+<Placement>
+    <Match ContentType="Page">
+        <Place Parts_Common_Metadata="-" />
+    </Match>
+</Placement>

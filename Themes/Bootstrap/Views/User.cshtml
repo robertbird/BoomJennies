@@ -1,0 +1,27 @@
+﻿@using System.Web.Mvc;
+<div class="nav-collapse">
+    <ul class="nav pull-right">
+        <li class="dropdown">
+            @if (WorkContext.CurrentUser != null)
+            {
+                dynamic user = WorkContext.CurrentUser.ContentItem;
+                List<string> roles = user.UserRolesPart.Roles;
+        
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">@WorkContext.CurrentUser.UserName<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li>@Html.ActionLink(T("Change Password").ToString(), "ChangePassword", new { Controller = "Account", Area = "Orchard.Users" })</li>
+                    <li>@Html.ActionLink(T("Sign Out").ToString(), "LogOff", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = Context.Request.RawUrl })</li>
+                    @if (AuthorizedFor(Orchard.Security.StandardPermissions.AccessAdminPanel))
+                    {
+                        <li class="divider"></li>
+                        <li>@Html.ActionLink(T("Dashboard").ToString(), "Index", new { Area = "Dashboard", Controller = "Admin" })</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                @Html.ActionLink(T("Sign In").ToString(), "LogOn", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = (Request.QueryString["ReturnUrl"] ?? Request.RawUrl) })
+            }
+        </li>
+    </ul>
+</div>

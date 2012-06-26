@@ -1,0 +1,7 @@
+Name: Bootstrap
+Author: Raptor Concepts
+Website: http://www.raptorconcepts.com
+Description: Bootstrap is an Orchard theme constructed using the Bootstrap template system from Twitter (http://twitter.github.com/bootstrap/). The Sidebar has been mapped to the AsideFirst & AsideSecond zones which will automatically collapse if there is no content. The Search box and User dropdown in the header can be turned on/off by commenting out the shapes in Layout.cshtml. The theme can either be a fixed width & centered layout or a fluid layout. Simply change all "container" class tags to "container-fluid" and "row" class tags to "row-fluid".
+Version: 2.0.2
+Tags: Bootstrap, Twitter
+Zones: Header, Navigation, Featured, BeforeMain, AsideFirst, Messages, BeforeContent, Content, AfterContent, AsideSecond, AfterMain, TripelFirst, TripelSecond, TripelThird, Footer
