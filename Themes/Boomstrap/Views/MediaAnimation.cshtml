@@ -3,4 +3,6 @@
 
     <br>
     <br>
-    <img src="@Url.Content(Model.media.Url)" />
+@if(Model.Media != null && Model.Media.Url != null) {
+    <img src="@Url.Content(Model.Media.Url)" />
+}

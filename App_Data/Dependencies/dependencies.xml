@@ -374,6 +374,12 @@
     <References />
   </Dependency>
   <Dependency>
+    <ModuleName>SH.GoogleAnalytics</ModuleName>
+    <VirtualPath>~/Modules/SH.GoogleAnalytics/SH.GoogleAnalytics.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
     <ModuleName>Shapes</ModuleName>
     <VirtualPath>~/Core/Shapes</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>

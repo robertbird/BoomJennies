@@ -1140,4 +1140,399 @@ System.NullReferenceException: Object reference not set to an instance of an obj
    at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
    at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
    at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
-   at Orc
+   at Orc2012-06-28 23:26:12,640 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:12,803 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:14,224 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:19,633 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:19,702 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:19,773 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:43,904 [8] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:43,952 [8] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:26:45,111 [8] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:28:57,022 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:28:57,101 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:29:00,490 [14] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:29:00,561 [14] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:29:58,815 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:29:58,877 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:29:59,131 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:32:38,155 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:32:38,234 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:32:38,470 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:33:38,806 [9] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:33:38,865 [9] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:33:39,007 [9] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:36:16,125 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:36:16,172 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:36:16,288 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:07,619 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:07,670 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:10,860 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:10,959 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:26,297 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:26,380 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:44,930 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:45,017 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:47,239 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:37:47,330 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:38:01,868 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:38:01,956 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:39:03,871 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:39:03,936 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:39:36,575 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:39:36,653 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:39:50,141 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:39:50,218 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:40:14,796 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:40:14,870 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:47:54,010 [19] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:47:54,087 [19] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:47:54,279 [19] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:54:29,773 [9] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:54:29,822 [9] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:54:29,970 [9] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:05,333 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:05,403 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:05,890 [7] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:16,660 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:16,770 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:17,894 [11] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:20,227 [19] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:20,274 [19] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:20,540 [19] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:32,731 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:32,801 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:57:32,857 [15] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:58:03,773 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:58:03,866 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
+2012-06-28 23:58:04,054 [10] Orchard.ContentManagement.DefaultContentManager - NullReferenceException thrown from IContentHandler by Orchard.Blogs.Handlers.BlogPostPartHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Handlers.BlogPostPartHandler.GetItemMetadata(GetContentItemMetadataContext context)
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.GetContentItemMetadata(GetContentItemMetadataContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 333
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass5e.<GetItemMetadata>b__5d(IContentHandler handler) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\DefaultContentManager.cs:line 496
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19

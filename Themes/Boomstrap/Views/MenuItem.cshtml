@@ -14,6 +14,20 @@
             case "/about-us":
                 itemSpecificStyle = "nav-about-us";
                 break;
+            case "/contact-us":
+                itemSpecificStyle = "nav-contact";
+                break;
+            case "/press-reviews":
+                itemSpecificStyle = "nav-reviews";
+                break;
+            case "/edinburgh-fringe":
+                itemSpecificStyle = "nav-edinburgh";
+                break;
+            case "/gigs":
+                itemSpecificStyle = "nav-gigs";
+                break;
+                
+                
         }
         string selected = (active && itemSpecificStyle != string.Empty) ? "-selected" : "";
         return string.Format("nav-link {0}{1}", itemSpecificStyle, selected);

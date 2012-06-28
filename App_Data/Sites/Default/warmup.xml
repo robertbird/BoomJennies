@@ -1,0 +1,4 @@
+<WarmupReport>
+  <ReportEntry RelativeUrl="/about-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fabout_2Dus" StatusCode="200" CreatedUtc="2012-06-28T23:15:23.6586933Z" />
+  <ReportEntry RelativeUrl="/contact-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fcontact_2Dus" StatusCode="200" CreatedUtc="2012-06-28T23:15:24.4717398Z" />
+</WarmupReport>
