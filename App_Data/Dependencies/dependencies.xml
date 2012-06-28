@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <Dependency>
+    <ModuleName>Boomstrap</ModuleName>
+    <VirtualPath>~/Theme/Boomstrap</VirtualPath>
+    <LoaderName>RawThemeExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
     <ModuleName>Bootstrap</ModuleName>
     <VirtualPath>~/Themes/Bootstrap/Bootstrap.csproj</VirtualPath>
     <LoaderName>DynamicExtensionLoader</LoaderName>
@@ -371,6 +377,12 @@
     <ModuleName>Shapes</ModuleName>
     <VirtualPath>~/Core/Shapes</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>TBJTheme</ModuleName>
+    <VirtualPath>~/Themes/TBJTheme/TBJTheme.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
   </Dependency>
   <Dependency>

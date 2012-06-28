@@ -1,0 +1,25 @@
+﻿@using Orchard.Utility.Extensions;
+@{
+    if (Model.Title != null) {
+        Layout.Title = Model.Title;
+    }
+    
+    var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+    Layout.AsideSecond.Add(New.MediaAnimation(media:Model.ContentItem.Page.RightHandAnimation));
+}
+<article class="content-item @contentTypeClassName">
+    <header>
+        @Display(Model.Header)
+        @if (Model.Meta != null) {
+        <div class="metadata">
+            @Display(Model.Meta)
+        </div>
+        }
+    </header>
+    @Display(Model.Content)
+    @if(Model.Footer != null) {
+    <footer>
+        @Display(Model.Footer)
+    </footer>
+    }
+</article>

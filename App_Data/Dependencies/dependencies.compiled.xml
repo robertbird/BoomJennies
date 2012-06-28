@@ -181,6 +181,12 @@
     <Hash>dba9abba05a373ac</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>TBJTheme</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/TBJTheme/TBJTheme.csproj</VirtualPath>
+    <Hash>da86c30ae43fefcd</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>TinyMce</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/TinyMce/bin/TinyMce.dll</VirtualPath>

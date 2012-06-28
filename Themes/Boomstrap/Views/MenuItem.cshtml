@@ -1,0 +1,73 @@
+﻿@{
+    // odd formatting in this file is to cause more attractive results in the output.
+    var items = (IEnumerable<dynamic>)Enumerable.Cast<dynamic>(Model);
+}
+@functions {
+  
+    public static string GetMenuItemClass(dynamic model, bool active) {
+        string itemSpecificStyle = string.Empty;
+        switch((string)model.Href)
+        {
+            case "/news":
+                itemSpecificStyle = "nav-news";
+                break;
+            case "/about-us":
+                itemSpecificStyle = "nav-about-us";
+                break;
+        }
+        string selected = (active && itemSpecificStyle != string.Empty) ? "-selected" : "";
+        return string.Format("nav-link {0}{1}", itemSpecificStyle, selected);
+    }
+}
+@{
+if(Model.Href == "/")
+{
+}
+else if (!HasText(Model.Text)) {
+    @DisplayChildren(Model)
+} else {
+    string requestUrl = Request.Path.Replace(Request.ApplicationPath, string.Empty).TrimEnd('/').ToUpperInvariant();
+    string modelUrl = Model.Href.Replace(Request.ApplicationPath, string.Empty).TrimEnd('/').ToUpperInvariant();
+    bool active = false;
+    if ((!string.IsNullOrEmpty(modelUrl) && requestUrl.StartsWith(modelUrl)) || requestUrl == modelUrl) { 
+	    Model.Classes.Add("active");
+        active = true;
+    }
+    if (items.Any())
+    {
+        Model.Classes.Add("dropdown");
+    }
+    var tag = Tag(Model, "li");
+    @tag.StartElement
+    if (items.Any()) {
+        if (Model.DisplayHref == null || (Model.DisplayHref != null && Model.DisplayHref))
+        {
+            <a href="@Model.Href" class="dropdown-toggle">@Model.Text<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                @DisplayChildren(Model)
+            </ul>
+        }
+        else
+        {   
+            <a href="#" class="dropdown-toggle">@Model.Text<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                @DisplayChildren(Model)
+            </ul>
+        }
+    }
+    else
+    {
+        if (Model.DisplayHref == null || (Model.DisplayHref != null && Model.DisplayHref))
+        {
+            <a class="@GetMenuItemClass(Model, active)" href="@Model.Href" title="@Model.Text"><span>@Model.Text</span></a>
+            <!-- @Model.ContentItem.ToString() -->
+        }
+        else
+        {
+            <a href="#">@Model.Text</a>
+            <a class="@GetMenuItemClass(Model, active)" href="@Model.Href" title="@Model.Text"><span>@Model.Text</span></a>
+        }
+    }
+    @tag.EndElement
+    }
+}

@@ -1,0 +1,13 @@
+<Placement>
+    <Match ContentType="Page">
+        <Place Parts_Title="-" />
+        <Place Parts_Common_Metadata="-" />
+        <Place Fields_MediaPicker="-"/>
+    </Match>
+    <Match DisplayType="Summary">
+        <Place Parts_Tags_ShowTags="-"/>
+    </Match>
+    <Match DisplayType="Detail">
+        <Place Parts_Tags_ShowTags="-"/>
+    </Match>
+</Placement>
