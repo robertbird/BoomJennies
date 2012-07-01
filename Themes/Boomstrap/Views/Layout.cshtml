@@ -57,10 +57,18 @@
     ***************************************************************/
 
     WorkContext.Layout.Header.Add(New.Branding(), "1"); // Site name and link to the home page
-    WorkContext.Layout.Footer.Add(New.Copyright(), "5"); // Copyright message
+    //WorkContext.Layout.Footer.Add(New.Copyright(), "5"); // Copyright message
     WorkContext.Layout.Header.Add(New.User(), "8"); // Login and dashboard links
     WorkContext.Layout.Header.Add(New.Search(), "9"); // Search box for header
-
+    
+    if (WorkContext.CurrentUser != null)
+    {
+        if (AuthorizedFor(Orchard.Security.StandardPermissions.AccessAdminPanel))
+        {
+            WorkContext.Layout.Footer.Add(New.DashboardLink(), "5"); // Dashboard link in footer
+        }
+    }
+    
     /* Last bit of code to prep the layout wrapper
     ***************************************************************/
 

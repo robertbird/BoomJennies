@@ -19,6 +19,8 @@
     <link rel="apple-touch-icon" sizes="72x72" href="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/Content/Images/72x72.jpg"))" />
     <link rel="apple-touch-icon" sizes="114x114" href="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/Content/Images/114x114.jpg"))" />
     <script>(function(d){d.className="dyn "+d.className.substring(7,d.length);})(document.documentElement);</script> 
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 </head> 
 <body> 
 @Display(Model.Body)

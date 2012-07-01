@@ -1,0 +1,216 @@
+@using Orchard.UI.Resources;
+@functions {
+    // To support the layout classifaction below. Implementing as a razor function because we can, could otherwise be a Func<string[], string, string> in the code block following.
+    string CalcuClassify(string[] zoneNames, string classNamePrefix)
+    {
+        var zoneCounter = 0;
+        var zoneNumsFilled = string.Join("", zoneNames.Select(zoneName => { ++zoneCounter; return Model[zoneName] != null ? zoneCounter.ToString() : ""; }).ToArray());
+        return HasText(zoneNumsFilled) ? classNamePrefix + zoneNumsFilled : "";
+    }
+}
+@{
+    /* Global includes for the theme
+    ***************************************************************/
+
+    SetMeta("X-UA-Compatible", "IE=edge,chrome=1");
+
+    Script.Require("jQuery");
+    Style.Include("bootstrap.css");
+    Style.Include("bootstrapResponsive.css");
+    Style.Include("add2home.css");
+    Style.Include("site.css");
+    
+    Script.Include("Site.js");
+    Script.Include("ipad.js");
+ 
+    /* Some useful shortcuts or settings
+    ***************************************************************/
+
+    Func<dynamic, dynamic> Zone = x => Display(x); // Zone as an alias for Display to help make it obvious when we're displaying zones
+
+    if (Model.Title != null) {
+        Layout.Title = Model.Title;
+}
+    
+    /* Last bit of code to prep the layout wrapper
+    ***************************************************************/
+
+    Model.Id = "layout-wrapper";
+    var tag = Tag(Model, "div"); // using Tag so the layout div gets the classes, id and other attributes added to the Model
+}
+
+<style type="text/css"> 
+    body {
+      padding-top: 0px;
+    }
+	a { text-decoration: none;  display:block }
+	a:hover { text-decoration: none; }
+	a>div { width:100%; height:100%;}
+	
+    #imgReviews {
+      width: 135px;
+      height: 167px;
+	}
+    .imgReviews {
+      margin-left: 250px;
+      margin-top: 110px;
+      background: url(@Url.Content("/Media/Default/animations/REVIEWS.gif")) no-repeat left bottom;
+    }
+    #imgAboutUs {
+      float: left;
+      width: 287px;
+	}
+    .imgAboutUs {
+      height: 257px;
+      margin-left: -50px;
+      background: url(@Url.Content("/Media/Default/animations/CROC-IN-CUP-NEW.gif")) no-repeat right bottom;
+    }
+    #imgNews {
+      width: 244px;
+      height: 315px;
+	}
+    .imgNews {
+	  float: right;
+	  margin-right: 0px;
+      background: url(@Url.Content("/Media/Default/animations/CHIC-SHOE.gif")) no-repeat left bottom;
+    }
+    #imgGallery {
+      width: 275px;
+      height: 380px;
+	}
+    .imgGallery {
+      margin-top: -190px;
+      background: url(@Url.Content("/Media/Default/animations/GALLERY.gif")) no-repeat left bottom;
+	  margin-left: auto;
+	  margin-right: auto;
+    }
+    #imgGigs {
+      width: 297px;
+      height: 283px;
+	}
+    .imgGigs {
+	  margin-top: 30px;
+	  margin-left: auto;
+	  margin-right: auto;
+      background: url(@Url.Content("/Media/Default/animations/LEGS.gif")) no-repeat left bottom;
+    }
+    #imgEdinburgh {
+	  width: 180px;
+	  height: 158px;
+	}
+    .imgEdinburgh {
+	  margin: auto;
+	  margin-left: 80px;
+      background: url(@Url.Content("/Media/Default/animations/EDIN.gif")) no-repeat left bottom;
+    }
+    #imgContact {
+      width: 400px;
+      height: 337px;
+	}
+    .imgContact {
+      background: url(@Url.Content("/Media/Default/animations/FISH-AND-NAIL.gif")) no-repeat left bottom;
+    }
+    #imgFacebook {
+      width: 342px;
+      height: 196px;
+	}
+    .imgFacebook {
+	  /*border: solid 1px red;*/
+      background: url(@Url.Content("/Media/Default/animations/FACEBOOK.gif")) no-repeat left bottom;
+    }
+  </style>
+
+<div id="layout-main" class="container-fluid">
+
+  <div class="row-fluid">
+      <div class="span4">
+        &nbsp;
+      </div>
+      <div class="span4">
+        <a href="@Url.Content("~/about-us")" id="imgAboutUs">
+            <div>&nbsp;</div>
+        </a>
+        <a href="@Url.Content("~/press-reviews")" id="imgReviews">
+            <div>&nbsp;</div>
+        </a>
+      </div>
+      <div class="span4">
+        <a href="http://www.facebook.com/theboomjennies" id="imgFacebook">
+            <div>&nbsp;</div>
+        </a>
+      </div>
+  </div>
+  <div class="row-fluid" style="height:200px">
+      <div class="span4">
+        <a href="@Url.Content("~/gallery")" id="imgGallery">
+            <div>&nbsp;</div>
+        </a>
+      </div>
+      <div class="span4">&nbsp;
+        <div style="logoContainer-new">
+		  <a href="@Url.Content("~/about-us")">
+            <div class="logo-new">&nbsp;</div>
+		  </a>
+        </div>
+      </div>
+      <div class="span4">
+        <a href="@Url.Content("~/edinburgh-fringe")" id="imgEdinburgh">
+            <div>&nbsp;</div>
+        </a>
+      </div>
+  </div>
+  <div class="row-fluid">
+      <div class="span4">
+        <a href="@Url.Content("~/news")" id="imgNews">
+          <div>&nbsp;</div>
+        </a>
+      </div>
+      <div class="span4">
+        <a href="@Url.Content("~/gigs")" id="imgGigs">
+           <div>&nbsp;</div>
+        </a>
+      </div>
+      <div class="span4">
+        <a href="@Url.Content("~/contact-us")" id="imgContact">
+            <div>&nbsp;</div>
+    	</a>
+      </div>
+  </div>
+</div><!--/.container -->
+
+
+@using(Script.Foot()) {
+
+
+<script type="text/javascript">
+        $(document).ready(function () {
+			LoadAnimations();
+        });
+		function LoadAnimations() {
+			LoadImage('@Url.Content("/Media/Default/animations/CROC-IN-CUP-NEW.gif")', ShowImageFunc('#imgAboutUs', 'imgAboutUs', 400));
+			LoadImage('@Url.Content("/Media/Default/animations/REVIEWS.gif")', ShowImageFunc('#imgReviews', 'imgReviews', 300));
+			LoadImage('@Url.Content("/Media/Default/animations/LEGS.gif")', ShowImageFunc('#imgGigs', 'imgGigs', 200));
+		    if($(window).width() > 960) {	
+				LoadImage('@Url.Content("/Media/Default/animations/CHIC-SHOE.gif")', ShowImageFunc('#imgNews', 'imgNews', 300));
+				LoadImage('@Url.Content("/Media/Default/animations/GALLERY.gif")', ShowImageFunc('#imgGallery', 'imgGallery', 500));
+				LoadImage('@Url.Content("/Media/Default/animations/EDIN.gif")', ShowImageFunc('#imgEdinburgh', 'imgEdinburgh', 600));
+				LoadImage('@Url.Content("/Media/Default/animations/FISH-AND-NAIL.gif")', ShowImageFunc('#imgContact', 'imgContact', 700));
+				LoadImage('@Url.Content("/Media/Default/animations/FACEBOOK.gif")', ShowImageFunc('#imgFacebook', 'imgFacebook', 400));
+			}		
+		}
+        function LoadImage(url, callback, delay) {
+            var img = new Image();
+            img.onload = callback;
+            img.src = url;
+        }
+        function ShowImageFunc(selector, cssClass, delay)
+        {
+            return function () {
+				if(!delay)
+					delay = 2000;
+                $(selector+'').hide().delay(delay).addClass(cssClass).fadeIn('slow');
+            }
+        }
+</script>
+
+}

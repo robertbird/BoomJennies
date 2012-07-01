@@ -5,7 +5,8 @@
     }
     
     var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
-    Layout.AsideSecond.Add(New.MediaAnimation(Media:Model.ContentItem.Page.RightHandAnimation));
+    var animation = contentTypeClassName == "projection-page" ? Model.ContentItem.ProjectionPage : Model.ContentItem.Page;
+    Layout.AsideSecond.Add(New.MediaAnimation(Media:animation.RightHandAnimation));
 }
 <article class="content-item @contentTypeClassName">
     <header>

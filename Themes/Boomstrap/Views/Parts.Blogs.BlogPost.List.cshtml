@@ -1,0 +1,76 @@
+﻿@using Orchard.ContentManagement;
+@using Orchard.Utility.Extensions;
+@{
+    IEnumerable<object> blogPosts = Model.ContentItems;
+    Model.ContentItems.Classes.Add("content-items");
+    Model.ContentItems.Classes.Add("blog-posts");
+}
+
+@functions 
+{
+    string DateOrdinal(DateTimeOffset date)
+    {
+        int number;
+        if(!int.TryParse(date.ToString("dd"), out number))
+        {
+          return "";
+        }
+        string suffix = String.Empty;
+
+        int ones = number % 10;
+        int tens = (int)Math.Floor(number / 10M) % 10;
+
+        if (tens == 1)
+        {
+                suffix = "th";
+        }
+        else
+        {
+                switch (ones)
+                {
+                        case 1:
+                                suffix = "st";
+                                break;
+                        case 2:
+                                suffix = "nd";
+                                break;
+                        case 3:
+                                suffix = "rd";
+                                break;
+                        default:
+                                suffix = "th";
+                                break;
+                }
+        }
+        return String.Format("{0}{1}", number, suffix);
+    }
+}
+
+
+@*@Display(Model.ContentItems)*@
+<br/>
+
+@foreach(var item in Model.ContentItems) {
+    
+	<div class="newsStory" style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #CFCFCF;">
+        <div class="title" style="margin-bottom: 0px; padding-bottom: 5px; border-bottom: 1px dotted #CFCFCF;">
+          <h2>@item.ContentItem.TitlePart.Title</h2>
+          <p style="margin-bottom: 0px">
+			<span class="" style="font-size: 1.1em; color: #999999;">@DateOrdinal(item.ContentItem.CommonPart.CreatedUtc) @item.ContentItem.CommonPart.CreatedUtc.ToString("MMMM yyyy")</span>
+		  </p>
+        </div>  
+        
+        <br>
+        @T(item.ContentItem.BodyPart.Text)
+    </div>    
+    
+   
+    @*Html.ItemDisplayLink(T("more").ToString(), item.ContentItem)
+  
+    <b>test: @item.ContentItem.Gig.GigDateTime.DateTime.ToString()</b>
+    Display(New.Gig(Item:item.ContentItem))*@
+}
+
+@if (blogPosts == null || blogPosts.Count() < 1) {
+<p>@T("There are no posts for this blog.")</p>
+}

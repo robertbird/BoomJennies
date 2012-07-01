@@ -1,0 +1,21 @@
+﻿
+@{
+    IList<dynamic> blogPosts = Model.List.Items;
+}
+
+@if (blogPosts == null || blogPosts.Count == 0) {
+    <b>There are currently no gigs listed, please check back soon.</b>
+}
+<br/><br/>
+
+@foreach(var item in Model.List.Items) {
+    @Display(New.Gig(Item:item.ContentItem))
+}
+
+@* Display the content using the default content template
+Display(Model.List)*@
+
+@if ((bool)Model.ContentPart.Record.DisplayPager) {
+    @Display(Model.Pager)
+}
+

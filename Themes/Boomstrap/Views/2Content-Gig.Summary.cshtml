@@ -1,0 +1,6 @@
+﻿@using Orchard.Utility.Extensions;
+@{
+    var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+}
+    
+    @Display(New.Gig(Model:Model.Content))

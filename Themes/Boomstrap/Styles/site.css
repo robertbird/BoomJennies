@@ -41,6 +41,7 @@ p {
   font-family: 'BodoniDTCBoldItalic', Arial, sans-serif; 
   color: #000000;
   font-size: 1.2em;
+  line-height: 1.5em;
 }
 h1 
 {
@@ -60,6 +61,15 @@ h2
   line-height: auto;
   font-weight: normal;
 }
+h3
+{
+  font-family: 'BodoniDTCBold', Arial, sans-serif;
+  font-size: 1.2em; 
+  letter-spacing:3px;
+  text-transform: uppercase;
+  line-height: auto;
+  font-weight: normal;
+}
 a
 {
   color: #FF0099;
@@ -67,6 +77,18 @@ a
 a:active, a:focus, a:selected, a:visited { 
     border: none;
     outline: none;
+}
+
+p.dateTextStyle
+{
+    font-size: 1.2em;
+    color: #999;
+    margin-bottom: 0px;
+}
+.projection-page h2
+{
+    line-height: 1em;
+    margin-bottom: 3px;
 }
 
 @media (max-width: 1024px) {
@@ -142,12 +164,16 @@ a:active, a:focus, a:selected, a:visited {
 .navbar .nav > li > a {
   padding: 0px;
 }
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+    background-color: #FFFFFF;
+}
 .nav-link
 {
     display: inline-block;
     width:100px;
     height:70px;
     background-image:url(../Content/Images/nav-sprite.png);
+    outline: 0;
 }
 .nav-link span
 {

@@ -2,8 +2,8 @@
 <Dependencies>
   <Dependency>
     <ModuleName>Boomstrap</ModuleName>
-    <VirtualPath>~/Theme/Boomstrap</VirtualPath>
-    <LoaderName>RawThemeExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Boomstrap/Boomstrap.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
   </Dependency>
   <Dependency>
@@ -11,6 +11,24 @@
     <VirtualPath>~/Themes/Bootstrap/Bootstrap.csproj</VirtualPath>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>Orchard.Themes</ModuleName>
+    <VirtualPath>~/Modules/Orchard.Themes/bin/Orchard.Themes.dll</VirtualPath>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>CKEditor</ModuleName>
+    <VirtualPath>~/Modules/CKEditor/CKEditor.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>Orchard.Themes</Name>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Orchard.Themes/bin/Orchard.Themes.dll</VirtualPath>
+      </Reference>
+    </References>
   </Dependency>
   <Dependency>
     <ModuleName>Common</ModuleName>
@@ -116,12 +134,6 @@
   <Dependency>
     <ModuleName>Orchard.Scripting</ModuleName>
     <VirtualPath>~/Modules/Orchard.Scripting/bin/Orchard.Scripting.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <References />
-  </Dependency>
-  <Dependency>
-    <ModuleName>Orchard.Themes</ModuleName>
-    <VirtualPath>~/Modules/Orchard.Themes/bin/Orchard.Themes.dll</VirtualPath>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <References />
   </Dependency>

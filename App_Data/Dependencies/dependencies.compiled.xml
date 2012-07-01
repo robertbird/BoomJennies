@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <Dependency>
+    <ExtensionId>Boomstrap</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Boomstrap/Boomstrap.csproj</VirtualPath>
+    <Hash>235b0d36ed56ddb5</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Bootstrap</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Bootstrap/Bootstrap.csproj</VirtualPath>
     <Hash>48ee12149b755ba9</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>CKEditor</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/CKEditor/CKEditor.csproj</VirtualPath>
+    <Hash>cf58320de667c613</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Markdown</ExtensionId>
