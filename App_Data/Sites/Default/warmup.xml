@@ -1,4 +1,4 @@
 <WarmupReport>
-  <ReportEntry RelativeUrl="/about-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fabout_2Dus" StatusCode="200" CreatedUtc="2012-07-01T22:02:28.5370687Z" />
-  <ReportEntry RelativeUrl="/contact-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fcontact_2Dus" StatusCode="200" CreatedUtc="2012-07-01T22:02:29.7041354Z" />
+  <ReportEntry RelativeUrl="/about-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fabout_2Dus" StatusCode="200" CreatedUtc="2012-07-02T19:28:57.6288565Z" />
+  <ReportEntry RelativeUrl="/contact-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fcontact_2Dus" StatusCode="200" CreatedUtc="2012-07-02T19:28:58.7789223Z" />
 </WarmupReport>

@@ -14,6 +14,7 @@
 <link href="/Themes/Boomstrap/Styles/bootstrapResponsive.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/Boomstrap/Styles/add2home.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/Boomstrap/Styles/site.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/Boomstrap/Styles/ModalGallery.css" rel="stylesheet" type="text/css" />
 
 
 <script class="shape-tracing-wrapper" shape-id="19" shape-type="Metas" shape-hint=""></script><meta content="Orchard" name="generator" />
@@ -52,41 +53,44 @@
 
 
 <script class="shape-tracing-wrapper" shape-id="30" shape-type="Style" shape-hint=""></script><script class="shape-tracing-wrapper" end-of="30"></script>
+
+
+<script class="shape-tracing-wrapper" shape-id="31" shape-type="Style" shape-hint=""></script><script class="shape-tracing-wrapper" end-of="31"></script>
 <script class="shape-tracing-wrapper" end-of="21"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="31" shape-type="HeadScripts" shape-hint=""></script>
+<script class="shape-tracing-wrapper" shape-id="32" shape-type="HeadScripts" shape-hint=""></script>
 
-<script class="shape-tracing-wrapper" shape-id="32" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
-<script class="shape-tracing-wrapper" end-of="32"></script>
-
-
-<script class="shape-tracing-wrapper" shape-id="33" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.core.min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="33" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="33"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="34" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.widget.min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="34" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.core.min.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="34"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="35" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.tabs.min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="35" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.widget.min.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="35"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="36" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.mouse.min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="36" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.tabs.min.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="36"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="37" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.resizable.min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="37" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.mouse.min.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="37"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="38" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/orchard-designertools-shapetracing.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="38" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.jQuery/scripts/jquery.ui.resizable.min.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="38"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="39" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/jquery.scrollTo-min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="39" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/orchard-designertools-shapetracing.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="39"></script>
+
+
+<script class="shape-tracing-wrapper" shape-id="40" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/jquery.scrollTo-min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" end-of="40"></script>
 <script type="text/javascript">
 var _gaq=_gaq||[];
 _gaq.push(["_setAccount","UA-33022434-1"]);
@@ -98,15 +102,17 @@ _gaq.push(["_trackPageview"]);
 })();
 </script>
 
-<script class="shape-tracing-wrapper" end-of="31"></script>
+<script class="shape-tracing-wrapper" end-of="32"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="40" shape-type="Feed" shape-hint=""></script><script class="shape-tracing-wrapper" end-of="40"></script>
+<script class="shape-tracing-wrapper" shape-id="41" shape-type="Feed" shape-hint=""></script><script class="shape-tracing-wrapper" end-of="41"></script>
 
     <link rel="apple-touch-icon" href="/Themes/Boomstrap/Content/Images/57x57.jpg" />
     <link rel="apple-touch-icon" sizes="72x72" href="/Themes/Boomstrap/Content/Images/72x72.jpg" />
     <link rel="apple-touch-icon" sizes="114x114" href="/Themes/Boomstrap/Content/Images/114x114.jpg" />
     <script>(function(d){d.className="dyn "+d.className.substring(7,d.length);})(document.documentElement);</script> 
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 </head> 
 <body> 
 
@@ -248,6 +254,22 @@ _gaq.push(["_trackPageview"]);
     <footer id="footer">
     </footer>
 </div><!--/.container -->
+
+<!-- modal-gallery is the modal dialog used for the image gallery -->
+<div id="modal-gallery" class="modal modal-gallery hide fade">
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">&times;</a>
+        <h3 class="modal-title"></h3>
+    </div>
+    <div class="modal-body"><div class="modal-image"></div></div>
+    <div class="modal-footer">
+        <a class="btn btn-info modal-next">Next <i class="icon-arrow-right icon-white"></i></a>
+        <a class="btn btn-info modal-prev"><i class="icon-arrow-left icon-white"></i> Previous</a>
+        <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000"><i class="icon-play icon-white"></i> Slideshow</a>
+        <a class="btn modal-download" target="_blank"><i class="icon-download"></i> Download</a>
+    </div>
+</div>
+
 </div>
 <div id="shape-tracing-container"> 
     <div id="shape-tracing-resize-handle" ></div>
@@ -288,7 +310,7 @@ _gaq.push(["_trackPageview"]);
                     <li>
                         <div class="name">
 <form action="/Orchard.DesignerTools/Alternate/Create" class="inline link" method="post"><input id="Alternate" name="Alternate" type="hidden" value="${$value.alternate}" /><input id="Template" name="Template" type="hidden" value="${$value.template}" /><input id="ReturnUrl" name="ReturnUrl" type="hidden" value="${$value.returnUrl}" />                            <button type="submit" class="create-template">Create</button>
-<input name="__RequestVerificationToken" type="hidden" value="fNxmZUsBvtTNYmF1kmIXmzLB5KFIWl4TIitDtiqe51tqiyH8N59TOm6unFfX/9EyiN3t+goh8XdiZhzX+q+5zpgMnKs9WHqDmY1unU4nvLpSc67pscJ5W3k9OO+lK0jzQRMRUI+5vKI3E1MJlB80JSxQdol4aJn90pNA8ugMNJz0ZJ9lL6ijbpcSFTJUKtsjF1OvJmlXCO1SYjdv2a5+rg==" /></form>                        </div>
+<input name="__RequestVerificationToken" type="hidden" value="sNQRg+xhaoBGajxrt2PYWSaJUMxf99Fk/6cN5sQkY8Zlxvq4Ru5up3sYd1zmVMSCaL3iHWvSBoq4OG7XuxyHvKfaFMyzwvzTak8nj3leQe/GSqyFjpBiwbYa8CdMhV17nMszTmMAsKJyUWQTBjjj1yG/RDl0o2jMuZ+Vk6MDBoadUTnVX9oE9uzSo4WzT5FMAhTEaEOaqV6mv6H6Sf4OKA==" /></form>                        </div>
                         <div class="value">${$value.filename}</div>
                     </li>
                 {{/each}}
@@ -343,43 +365,51 @@ _gaq.push(["_trackPageview"]);
 </script>
 
 
-<script class="shape-tracing-wrapper" shape-id="41" shape-type="FootScripts" shape-hint=""></script>
+<script class="shape-tracing-wrapper" shape-id="42" shape-type="FootScripts" shape-hint=""></script>
 
-<script class="shape-tracing-wrapper" shape-id="42" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/codemirror.js" type="text/javascript"></script>
-<script class="shape-tracing-wrapper" end-of="42"></script>
-
-
-<script class="shape-tracing-wrapper" shape-id="43" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/razor.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="43" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/codemirror.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="43"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="44" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/javascript.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="44" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/razor.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="44"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="45" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/css.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="45" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/javascript.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="45"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="46" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/htmlmixed.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="46" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/css.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="46"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="47" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/jquery.tmpl.min.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="47" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/CodeMirror/htmlmixed.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="47"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="48" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/Site.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="48" shape-type="Resource" shape-hint=""></script><script src="/Modules/Orchard.DesignerTools/scripts/jquery.tmpl.min.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="48"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="49" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/ipad.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="49" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/Site.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="49"></script>
 
 
-<script class="shape-tracing-wrapper" shape-id="50" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/homepage.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" shape-id="50" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/ipad.js" type="text/javascript"></script>
 <script class="shape-tracing-wrapper" end-of="50"></script>
-<script class="shape-tracing-wrapper" end-of="41"></script>
+
+
+<script class="shape-tracing-wrapper" shape-id="51" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/homepage.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" end-of="51"></script>
+
+
+<script class="shape-tracing-wrapper" shape-id="52" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/load-image.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" end-of="52"></script>
+
+
+<script class="shape-tracing-wrapper" shape-id="53" shape-type="Resource" shape-hint=""></script><script src="/Themes/Boomstrap/scripts/ModalGallery.js" type="text/javascript"></script>
+<script class="shape-tracing-wrapper" end-of="53"></script>
+<script class="shape-tracing-wrapper" end-of="42"></script>
 
 
 
@@ -1857,6 +1887,55 @@ shapeTracingMetadataHost[30].shape = {
 
 
 <script type="text/javascript">
+shapeTracingMetadataHost[31] = {};
+
+shapeTracingMetadataHost[31].shape = { 
+    type: 'Style', 
+    template: 'Orchard.Core.Shapes.CoreShapes::Style', 
+    originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Style',
+    displayType: 'n/a',
+    position: 'n/a',
+    placement: 'n/a',
+    alternates: [
+        {
+        filename: '~/Themes/Boomstrap/Views/Style.cshtml',
+        alternate: 'Style', 
+        template: 'Orchard.Core.Shapes.CoreShapes::Style',
+        returnUrl: '/contact-us'
+        },
+        {
+        filename: '~/Themes/Boomstrap/Views/Style-url-contact-us.cshtml',
+        alternate: 'Style-url-contact-us', 
+        template: 'Orchard.Core.Shapes.CoreShapes::Style',
+        returnUrl: '/contact-us'
+        },
+        {
+        filename: '~/Themes/Boomstrap/Views/Style-modalgallery.cshtml',
+        alternate: 'Style-modalgallery', 
+        template: 'Orchard.Core.Shapes.CoreShapes::Style',
+        returnUrl: '/contact-us'
+        },
+        {
+        filename: '~/Themes/Boomstrap/Views/Style-modalgallery-url-contact-us.cshtml',
+        alternate: 'Style-modalgallery-url-contact-us', 
+        template: 'Orchard.Core.Shapes.CoreShapes::Style',
+        returnUrl: '/contact-us'
+        },
+    ],
+    wrappers: [
+    ],
+    html: '',
+    templateContent: 'Content not available as coming from source code.',
+    model: { "name": "Model", "value": "Style Shape", "children": [{ "name": "Url", "value": "\"/Themes/Boomstrap/styles/ModalGallery.css\"" }, {"name": "Condition", "value": "null" }, {"name": "Resource", "value": "ResourceDefinition", "children": [{ "name": "Manifest", "value": "ResourceManifest", "children": [{ "name": "Feature", "value": "null" }, {"name": "Name", "value": "\"ResourceManifest\"" }, {"name": "BasePath", "value": "null" }] }, {"name": "TagName", "value": "\"link\"" }, {"name": "TagRenderMode", "value": "SelfClosing" }, {"name": "Name", "value": "\"~/Themes/Boomstrap/styles/ModalGallery.css\"" }, {"name": "Type", "value": "\"stylesheet\"" }, {"name": "Version", "value": "null" }, {"name": "BasePath", "value": "\"\"" }, {"name": "Url", "value": "\"/Themes/Boomstrap/styles/ModalGallery.css\"" }, {"name": "UrlDebug", "value": "null" }, {"name": "UrlCdn", "value": "null" }, {"name": "UrlCdnDebug", "value": "null" }, {"name": "Cultures", "value": "null" }, {"name": "CdnSupportsSsl", "value": "False" }, {"name": "Dependencies", "value": "null" }, {"name": "FilePathAttributeName", "value": "\"href\"" }, {"name": "TagBuilder", "value": "TagBuilder", "children": [{ "name": "Attributes", "value": "SortedDictionary<String, String>", "children": [{ "name": "[\"rel\"]", "value": "\"stylesheet\"" }, {"name": "[\"type\"]", "value": "\"text/css\"" }] }, {"name": "IdAttributeDotReplacement", "value": "\"_\"" }, {"name": "InnerHtml", "value": "\"\"" }, {"name": "TagName", "value": "\"link\"" }] }] }, {"name": "TagAttributes", "value": "null" }] }
+};
+
+
+</script>
+
+
+
+
+<script type="text/javascript">
 shapeTracingMetadataHost[21] = {};
 
 shapeTracingMetadataHost[21].shape = { 
@@ -1894,9 +1973,9 @@ shapeTracingMetadataHost[21].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[32] = {};
+shapeTracingMetadataHost[33] = {};
 
-shapeTracingMetadataHost[32].shape = { 
+shapeTracingMetadataHost[33].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -1943,9 +2022,9 @@ shapeTracingMetadataHost[32].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[33] = {};
+shapeTracingMetadataHost[34] = {};
 
-shapeTracingMetadataHost[33].shape = { 
+shapeTracingMetadataHost[34].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -1992,9 +2071,9 @@ shapeTracingMetadataHost[33].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[34] = {};
+shapeTracingMetadataHost[35] = {};
 
-shapeTracingMetadataHost[34].shape = { 
+shapeTracingMetadataHost[35].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -2041,9 +2120,9 @@ shapeTracingMetadataHost[34].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[35] = {};
+shapeTracingMetadataHost[36] = {};
 
-shapeTracingMetadataHost[35].shape = { 
+shapeTracingMetadataHost[36].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -2090,9 +2169,9 @@ shapeTracingMetadataHost[35].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[36] = {};
+shapeTracingMetadataHost[37] = {};
 
-shapeTracingMetadataHost[36].shape = { 
+shapeTracingMetadataHost[37].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -2139,9 +2218,9 @@ shapeTracingMetadataHost[36].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[37] = {};
+shapeTracingMetadataHost[38] = {};
 
-shapeTracingMetadataHost[37].shape = { 
+shapeTracingMetadataHost[38].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -2188,9 +2267,9 @@ shapeTracingMetadataHost[37].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[38] = {};
+shapeTracingMetadataHost[39] = {};
 
-shapeTracingMetadataHost[38].shape = { 
+shapeTracingMetadataHost[39].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -2237,9 +2316,9 @@ shapeTracingMetadataHost[38].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[39] = {};
+shapeTracingMetadataHost[40] = {};
 
-shapeTracingMetadataHost[39].shape = { 
+shapeTracingMetadataHost[40].shape = { 
     type: 'Resource', 
     template: 'Orchard.Core.Shapes.CoreShapes::Resource', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::Resource',
@@ -2286,9 +2365,9 @@ shapeTracingMetadataHost[39].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[31] = {};
+shapeTracingMetadataHost[32] = {};
 
-shapeTracingMetadataHost[31].shape = { 
+shapeTracingMetadataHost[32].shape = { 
     type: 'HeadScripts', 
     template: 'Orchard.Core.Shapes.CoreShapes::HeadScripts', 
     originalTemplate: 'Orchard.Core.Shapes.CoreShapes::HeadScripts',
@@ -2323,9 +2402,9 @@ shapeTracingMetadataHost[31].shape = {
 
 
 <script type="text/javascript">
-shapeTracingMetadataHost[40] = {};
+shapeTracingMetadataHost[41] = {};
 
-shapeTracingMetadataHost[40].shape = { 
+shapeTracingMetadataHost[41].shape = { 
     type: 'Feed', 
     template: '~/Core/Feeds/Views/Feed.cshtml', 
     originalTemplate: '~/Core/Feeds/Views/Feed.cshtml',
