@@ -450,6 +450,12 @@
     </References>
   </Dependency>
   <Dependency>
+    <ModuleName>Vandelay.Meta</ModuleName>
+    <VirtualPath>~/Modules/Vandelay.Meta/Vandelay.Meta.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
     <ModuleName>XmlRpc</ModuleName>
     <VirtualPath>~/Core/XmlRpc</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>

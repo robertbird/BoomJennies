@@ -216,4 +216,10 @@
     <VirtualPath>~/Modules/UpgradeTo14/bin/UpgradeTo14.dll</VirtualPath>
     <Hash>24e822544e7c53a4</Hash>
   </Dependency>
+  <Dependency>
+    <ExtensionId>Vandelay.Meta</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Vandelay.Meta/Vandelay.Meta.csproj</VirtualPath>
+    <Hash>6c356b72ddb08b8d</Hash>
+  </Dependency>
 </Dependencies>
