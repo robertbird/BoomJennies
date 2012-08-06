@@ -4,25 +4,37 @@
     <ExtensionId>Boomstrap</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Boomstrap/Boomstrap.csproj</VirtualPath>
-    <Hash>235b0d36ed56ddb5</Hash>
+    <Hash>235b0d36eeccb0dc</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Bootstrap</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Bootstrap/Bootstrap.csproj</VirtualPath>
-    <Hash>48ee12149b755ba9</Hash>
+    <Hash>48ee12149beaf7e3</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>CKEditor</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/CKEditor/CKEditor.csproj</VirtualPath>
-    <Hash>cf58320de667c613</Hash>
+    <Hash>cf58320dec717883</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>Contrib.RewriteRules</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.RewriteRules/Contrib.RewriteRules.csproj</VirtualPath>
+    <Hash>b13b7a567dbf768e</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Markdown</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Markdown/bin/Markdown.dll</VirtualPath>
     <Hash>92396ceede2de27b</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>Mello.ImageGallery</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Mello.ImageGallery/Mello.ImageGallery.csproj</VirtualPath>
+    <Hash>8045c9bf60f49c7e</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Alias</ExtensionId>
@@ -58,7 +70,7 @@
     <ExtensionId>Orchard.DesignerTools</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.DesignerTools/Orchard.DesignerTools.csproj</VirtualPath>
-    <Hash>bf250f3da5de6c67</Hash>
+    <Hash>bf250f3da79f5f32</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Fields</ExtensionId>
@@ -76,7 +88,7 @@
     <ExtensionId>Orchard.ImportExport</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.ImportExport/Orchard.ImportExport.csproj</VirtualPath>
-    <Hash>d859c3d6b3b51a21</Hash>
+    <Hash>d859c3d6b5b87953</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.jQuery</ExtensionId>
@@ -196,13 +208,13 @@
     <ExtensionId>SH.GoogleAnalytics</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/SH.GoogleAnalytics/SH.GoogleAnalytics.csproj</VirtualPath>
-    <Hash>d851d43653c98499</Hash>
+    <Hash>d851d4365d8a4e53</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>TBJTheme</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/TBJTheme/TBJTheme.csproj</VirtualPath>
-    <Hash>da86c30ae43fefcd</Hash>
+    <Hash>da86c30ae54f2258</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>TinyMce</ExtensionId>
@@ -220,6 +232,12 @@
     <ExtensionId>Vandelay.Meta</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Vandelay.Meta/Vandelay.Meta.csproj</VirtualPath>
-    <Hash>6c356b72ddb08b8d</Hash>
+    <Hash>6c3577731cd5612e</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>WebAdvanced.Sitemap</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/WebAdvanced.Sitemap/WebAdvanced.Sitemap.csproj</VirtualPath>
+    <Hash>765a4c10ca7cfe25</Hash>
   </Dependency>
 </Dependencies>

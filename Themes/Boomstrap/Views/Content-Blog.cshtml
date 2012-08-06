@@ -5,8 +5,10 @@
     }
     
     var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+    try {
     var animation = Model.ContentItem.BlogPart.Blog;
     Layout.AsideSecond.Add(New.MediaAnimation(Media:animation.RightHandAnimation));
+    } catch {}
 }
 <article class="content-item @contentTypeClassName">
     <header>

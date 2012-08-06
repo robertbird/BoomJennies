@@ -49,6 +49,23 @@
     <References />
   </Dependency>
   <Dependency>
+    <ModuleName>Contrib.RewriteRules</ModuleName>
+    <VirtualPath>~/Modules/Contrib.RewriteRules/Contrib.RewriteRules.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>Moq</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Contrib.RewriteRules/bin/Moq.dll</VirtualPath>
+      </Reference>
+      <Reference>
+        <Name>nunit.framework</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Contrib.RewriteRules/bin/nunit.framework.dll</VirtualPath>
+      </Reference>
+    </References>
+  </Dependency>
+  <Dependency>
     <ModuleName>Dashboard</ModuleName>
     <VirtualPath>~/Core/Dashboard</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
@@ -69,6 +86,35 @@
         <Name>MarkdownSharp</Name>
         <LoaderName>PrecompiledExtensionLoader</LoaderName>
         <VirtualPath>~/Modules/Markdown/bin/MarkdownSharp.dll</VirtualPath>
+      </Reference>
+    </References>
+  </Dependency>
+  <Dependency>
+    <ModuleName>Orchard.Media</ModuleName>
+    <VirtualPath>~/Modules/Orchard.Media/bin/Orchard.Media.dll</VirtualPath>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>ICSharpCode.SharpZipLib</Name>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Orchard.Media/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
+      </Reference>
+    </References>
+  </Dependency>
+  <Dependency>
+    <ModuleName>Mello.ImageGallery</ModuleName>
+    <VirtualPath>~/Modules/Mello.ImageGallery/Mello.ImageGallery.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>ICSharpCode.SharpZipLib</Name>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Orchard.Media/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
+      </Reference>
+      <Reference>
+        <Name>Orchard.Media</Name>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Orchard.Media/bin/Orchard.Media.dll</VirtualPath>
       </Reference>
     </References>
   </Dependency>
@@ -189,18 +235,6 @@
     <VirtualPath>~/Modules/Orchard.jQuery/bin/Orchard.jQuery.dll</VirtualPath>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <References />
-  </Dependency>
-  <Dependency>
-    <ModuleName>Orchard.Media</ModuleName>
-    <VirtualPath>~/Modules/Orchard.Media/bin/Orchard.Media.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <References>
-      <Reference>
-        <Name>ICSharpCode.SharpZipLib</Name>
-        <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Orchard.Media/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
-      </Reference>
-    </References>
   </Dependency>
   <Dependency>
     <ModuleName>Orchard.MediaPicker</ModuleName>
@@ -454,6 +488,18 @@
     <VirtualPath>~/Modules/Vandelay.Meta/Vandelay.Meta.csproj</VirtualPath>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>WebAdvanced.Sitemap</ModuleName>
+    <VirtualPath>~/Modules/WebAdvanced.Sitemap/WebAdvanced.Sitemap.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>Orchard.Autoroute</Name>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Orchard.Autoroute/bin/Orchard.Autoroute.dll</VirtualPath>
+      </Reference>
+    </References>
   </Dependency>
   <Dependency>
     <ModuleName>XmlRpc</ModuleName>

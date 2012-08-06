@@ -1,4 +1,9 @@
 <WarmupReport>
-  <ReportEntry RelativeUrl="/about-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fabout_2Dus" StatusCode="200" CreatedUtc="2012-07-27T19:08:58.9185965Z" />
-  <ReportEntry RelativeUrl="/contact-us" Filename="http_3A_2F_2Flocalhost_3A1234_2Fcontact_2Dus" StatusCode="200" CreatedUtc="2012-07-27T19:09:00.1886691Z" />
+  <ReportEntry RelativeUrl="/" Filename="http_3A_2F_2Fwww_2Etheboomjennies_2Ecom" StatusCode="200" CreatedUtc="2012-08-06T23:16:51.3418487Z" />
+  <ReportEntry RelativeUrl="/about-us" Filename="http_3A_2F_2Fwww_2Etheboomjennies_2Ecom_2Fabout_2Dus" StatusCode="200" CreatedUtc="2012-08-06T23:16:51.625865Z" />
+  <ReportEntry RelativeUrl="/contact-us" Filename="http_3A_2F_2Fwww_2Etheboomjennies_2Ecom_2Fcontact_2Dus" StatusCode="200" CreatedUtc="2012-08-06T23:16:51.9958861Z" />
+  <ReportEntry RelativeUrl="/news" Filename="http_3A_2F_2Fwww_2Etheboomjennies_2Ecom_2Fnews" StatusCode="200" CreatedUtc="2012-08-06T23:16:52.272902Z" />
+  <ReportEntry RelativeUrl="/press-reviews" Filename="http_3A_2F_2Fwww_2Etheboomjennies_2Ecom_2Fpress_2Dreviews" StatusCode="200" CreatedUtc="2012-08-06T23:16:52.4989149Z" />
+  <ReportEntry RelativeUrl="/gigs" Filename="http_3A_2F_2Fwww_2Etheboomjennies_2Ecom_2Fgigs" StatusCode="200" CreatedUtc="2012-08-06T23:16:52.7759308Z" />
+  <ReportEntry RelativeUrl="/edinburgh-fringe" Filename="http_3A_2F_2Fwww_2Etheboomjennies_2Ecom_2Fedinburgh_2Dfringe" StatusCode="200" CreatedUtc="2012-08-06T23:16:52.9819425Z" />
 </WarmupReport>

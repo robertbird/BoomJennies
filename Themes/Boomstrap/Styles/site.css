@@ -196,6 +196,42 @@ p.dateTextStyle
 .nav-videos { background-position:-707px 0px; }
 .nav-videos-selected { background-position:-707px -71px; }
 
+.imageFrame
+{
+    border: 30px white;
+    text-align: center;
+}
+.imageFrame-1
+{
+	-moz-border-image:url("../content/images/frame1.png") 100 100 100 100 repeat repeat;
+	-webkit-border-image:url("../content/images/frame1.png") 100 100 100 100 repeat repeat;
+	border-image:url("../content/images/frame1.png") 20% 20% 20% 20% stretch stretch;
+}
+
+.imageFrame-2
+{
+	-moz-border-image:url("../content/images/frame2.png") 20% 20% 20% 20% stretch stretch;
+	-webkit-border-image:url("../content/images/frame2.png") 20% 20% 20% 20% stretch stretch;
+	border-image:url("../content/images/frame2.png") 20% 20% 20% 20% stretch stretch;
+}
+.imageFrame-3
+{
+	-moz-border-image:url("../content/images/frame3.png") 20% 20% 20% 20% stretch stretch;
+	-webkit-border-image:url("../content/images/frame3.png") 20% 20% 20% 20% stretch stretch;
+	border-image:url("../content/images/frame3.png") 20% 20% 20% 20% stretch stretch;
+}
+.imageFrame-4
+{
+	-moz-border-image:url("../content/images/frame4.png") 20% 20% 20% 20% stretch stretch;
+	-webkit-border-image:url("../content/images/frame4.png") 20% 20% 20% 20% stretch stretch;
+	border-image:url("../content/images/frame4.png") 20% 20% 20% 20% stretch stretch;
+}
+.imageFrame-5
+{
+	-moz-border-image:url("../content/images/frame5.png") 20% 20% 20% 20% stretch stretch;
+	-webkit-border-image:url("../content/images/frame5.png") 20% 20% 20% 20% stretch stretch;
+	border-image:url("../content/images/frame5.png") 20% 20% 20% 20% stretch stretch;
+}
 
 /*
 .btn-navbar {

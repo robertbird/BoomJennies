@@ -26,8 +26,12 @@
             case "/gigs":
                 itemSpecificStyle = "nav-gigs";
                 break;
-                
-                
+            case "/gallery":
+                itemSpecificStyle = "nav-gallery";
+                break;
+            case "/videos":
+                itemSpecificStyle = "nav-videos";
+                break;
         }
         string selected = (active && itemSpecificStyle != string.Empty) ? "-selected" : "";
         return string.Format("nav-link {0}{1}", itemSpecificStyle, selected);

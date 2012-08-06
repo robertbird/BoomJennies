@@ -1,0 +1,8 @@
+2012-08-04 15:16:09,279 [7] Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator - NullReferenceException thrown from IContentPartDriver by Orchard.Blogs.Drivers.BlogPostPartDriver
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Blogs.Extensions.FeedManagerExtensions.Register(IFeedManager feedManager, BlogPart blogPart)
+   at Orchard.Blogs.Drivers.BlogPostPartDriver.Display(BlogPostPart part, String displayType, Object shapeHelper)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute4[T0,T1,T2,T3,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3)
+   at Orchard.ContentManagement.Drivers.ContentPartDriver`1.Orchard.ContentManagement.Drivers.IContentPartDriver.BuildDisplay(BuildDisplayContext context) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:line 26
+   at Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator.<>c__DisplayClassa.<BuildDisplay>b__9(IContentPartDriver driver) in d:\Builds\OrchardFull\src\Orchard\ContentManagement\Drivers\Coordinators\ContentPartDriverCoordinator.cs:line 47
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in d:\Builds\OrchardFull\src\Orchard\InvokeExtensions.cs:line 19
